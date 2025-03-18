@@ -55,8 +55,32 @@
 # # 6.
 # print(f"Track name: {track_name}, Album name: {album_name}, Artist name: {artist_name}, Track genre: {track_genre}, Unit price: {unit_price:.2f}")
 
+# Exercise 2
+# As a customer, I want to see the total price (including any applicable discounts) for the tracks I want to buy, so that I can make an informed decision.
+# Hint: Apply a discount of 10% if the user buys the entire album.
 
+# Task 1
+## DB
+album_name = "Thriller"
+artist_name = "Michael Jackson"
+genre_name = "Pop"
 
+track_name1 = "Beat it"
+unit_price1 = 2.99
+
+track_name2 = "Billie Jean"
+unit_price2 = 2.99
+
+track_name3 = "Smooth Criminal"
+unit_price3 = 2.99
+
+track_name4 = "The Girl is mine"
+unit_price4 = 2.99
+
+# Task 2
+## Input
+
+track_number = input("How many tracks do zou want to buy?")
 
 
 
