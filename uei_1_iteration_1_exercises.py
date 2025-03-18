@@ -79,9 +79,17 @@ unit_price4 = 2.99
 
 # Task 2
 ## Input
+track_number = float(input("How many tracks do zou want to buy?"))
 
-track_number = input("How many tracks do zou want to buy?")
+# Task 3
+# Process
+total_price = track_number * unit_price1
+print("Total price: ", total_price)
 
+album_price = unit_price1 + unit_price2 + unit_price3 + unit_price4
+print('Album price: ', album_price)
+album_price_discount10 = round(album_price * 0.9, 2)
+print('Abumprice discounted:', album_price_discount10)
 
 
 
